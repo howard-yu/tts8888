@@ -47,7 +47,6 @@
             this.tts8888WebBrowser.Url = new System.Uri("", System.UriKind.Relative);
             this.tts8888WebBrowser.WebBrowserShortcutsEnabled = false;
             this.tts8888WebBrowser.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.tts8888WebBrowser_DocumentCompleted);
-            this.tts8888WebBrowser.NewWindow += new System.ComponentModel.CancelEventHandler(this.tts8888WebBrowser_NewWindow);
             // 
             // tts8888Form
             // 
